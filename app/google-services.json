@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "284939713722",
+    "firebase_url": "https://safetytector-default-rtdb.firebaseio.com",
+    "project_id": "safetytector",
+    "storage_bucket": "safetytector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284939713722:android:c1b785b67ec8ea7f915683",
+        "android_client_info": {
+          "package_name": "com.safetytector.safety"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6hadWDKuEeGwuR0lVIAgxH2u2H1SPa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284939713722:android:b6f35e06b69a075e915683",
+        "android_client_info": {
+          "package_name": "com.safetytector2.safety"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj6hadWDKuEeGwuR0lVIAgxH2u2H1SPa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
