@@ -98,25 +98,28 @@ public class UserSearchActivity extends AppCompatActivity {
         classrooms.add("4_floor_elevator_left");
         classrooms.add("4_floor_elevator_right");
         classrooms.add("4_floor_terrace");
+        classrooms.add("4_Exit_1");
+        classrooms.add("4_Exit_2");
+        classrooms.add("4_Exit_3");
         for(int i=10;i<36;i++){
             String name = "4" + i;
             classrooms.add(name);
         }
         classrooms.add("artechne_4");
 
-        for(int i=1;i<10;i++){
-            String name = "50" + i;
-            classrooms.add(name);
-            if(i==7){
-                classrooms.add("507A");
-            }
-        }
-        for(int i=10;i<33;i++){
-            String name = "5" + i;
-            classrooms.add(name);
-        }
-        classrooms.add("5_floor_elevator_left");
-        classrooms.add("5_floor_elevator_right");
-        classrooms.add("artechne_5");
+//        for(int i=1;i<10;i++){
+//            String name = "50" + i;
+//            classrooms.add(name);
+//            if(i==7){
+//                classrooms.add("507A");
+//            }
+//        }
+//        for(int i=10;i<33;i++){
+//            String name = "5" + i;
+//            classrooms.add(name);
+//        }
+//        classrooms.add("5_floor_elevator_left");
+//        classrooms.add("5_floor_elevator_right");
+//        classrooms.add("artechne_5");
     }
 }

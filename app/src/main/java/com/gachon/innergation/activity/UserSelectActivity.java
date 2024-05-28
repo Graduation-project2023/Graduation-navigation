@@ -88,6 +88,10 @@ public class UserSelectActivity extends AppCompatActivity {
         }
         comp.clear();
         List<ScanResult> results = wifiManager.getScanResults();
+
+        /**
+         * 현재 위치 찾기  주석 처리 시 잠그기
+         */
         for (int i = 0; i < results.size(); i++) {
             ScanResult result = results.get(i);
             if(!result.BSSID.contains("94:64"))

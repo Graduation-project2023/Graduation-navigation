@@ -51,5 +51,8 @@ public class FloorFourActivity extends AppCompatActivity {
         classrooms.add("4_floor_terrace");
         classrooms.add("artechne_4");
         classrooms.add("407_a");
+        classrooms.add("4_Exit_1");
+        classrooms.add("4_Exit_2");
+        classrooms.add("4_Exit_3");
     }
 }

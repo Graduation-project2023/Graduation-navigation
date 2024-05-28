@@ -171,6 +171,7 @@ public class FindActivity_four extends AppCompatActivity {
         customProgressDialog.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
         setUpMap();
         filePath = getApplicationContext().getFilesDir().getPath().toString();
+        Log.e("path = ", filePath);
         String mapPath = filePath + "/AstarMap.txt";
         try (PrintWriter writer = new PrintWriter(mapPath)) {
             for (int[] row : maps) {
